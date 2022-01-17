@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="3dp" />
+    <solid android:color="@color/SmartDesk_Blue" />
+    <stroke android:color="@color/SmartDesk_Blue_new"
+        android:width="2px" />
+</shape>

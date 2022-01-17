@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#209ED4</color>
+    <color name="colorPrimaryDark">#209ED4</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="whatsapp_green_dark">#075e54</color>
+    <color name="green">#16AF11</color>
+    <color name="tumblr_logo">#35465C</color>
+    <color name="tumblr_logo_dark">#292E35</color>
+    <color name="cardViewColor">#1F2327</color>
+    <color name="logo_red">#DC232E</color>
+    <color name="error_red">#FF0000</color>
+
+
+
+    <color name="SmartDesk_Blue">#209ED4</color>
+    <color name="SmartDesk_Blue_new">#121135</color>
+    <color name="SmartDesk_Orange">#F6A31D</color>
+    <color name="SmartDesk_Blue_Oppaque">#146385</color>
+    <color name="SmartDesk_Editext">#222161</color>
+    <color name="SmartDesk_Editext_red">#FFFFFF</color>
+
+    <color name="notification">#C6D1DA</color>
+    <color name="TextColor">#434343</color>
+
+
+    <color name="forground">#e9ebee</color>
+    <color name="forground2">#929495</color>
+    <color name="forground3">#B2B4B5</color>
+    <color name="textColor">#050505</color>
+    <color name="divider">#ECECEC</color>
+    <color name="lightText">#757575</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="red">#851717</color>
+
+    <color name="zxing_transparent">#00000000</color>
+
+<!--    Page Stepper Color Coding-->
+    <color name="background_default">#A5D6A7</color>
+    <color name="step_default">#4CAF50</color>
+    <color name="current_step_default">#ffffff</color>
+    <color name="black_color">#000000</color>
+    <color name="secondary_text_default">#ffffff</color>
+    <color name="status_bar">#838282</color>
+    <color name="lighter_gray">#000fff</color>
+    <color name="page_title_color">#797979</color>
+</resources>

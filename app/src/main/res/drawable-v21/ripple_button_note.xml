@@ -1,0 +1,4 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/tumblr_logo_dark">
+    <item android:drawable="@drawable/shape_colored_box_round" />
+</ripple>

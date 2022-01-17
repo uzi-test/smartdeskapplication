@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_top_radius_for_bottomview"
+    android:backgroundTint="@color/tumblr_logo_dark"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/changeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_from_top"
+        android:text="Registration"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/divider" />
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="40dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/shape_top_bottom_left_radius"
+                android:backgroundTint="@color/SmartDesk_Blue"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iconImage"
+                    android:layout_width="24dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/side_profile_icon"
+                    app:tint="@color/white" />
+            </LinearLayout>
+
+            <com.smartdesk.utility.library.CustomEditext
+                android:id="@+id/editext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_editext"
+                android:hint="Worker Name ⁕"
+                android:imeActionLabel="Done"
+                android:imeOptions="actionDone"
+                android:inputType="textPersonName"
+                android:paddingStart="8dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="5dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/forground2"
+                android:textSize="@dimen/edit_text_size" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/spinnerError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:visibility="gone"
+            android:text="Gender not Selected *"
+            android:textColor="@color/error_red" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ripple_button"
+            android:text="Save"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

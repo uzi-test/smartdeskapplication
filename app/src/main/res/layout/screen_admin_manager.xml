@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/tumblr_logo_dark"
+    android:id="@+id/parent"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.smartdesk.screens.admin.manager_status.ScreenAdminManager"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include
+        android:id="@+id/actionbarInclude"
+        layout="@layout/action_bar_general" />
+
+    <LinearLayout
+        android:id="@+id/bg_main"
+        android:layout_below="@id/actionbarInclude"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            android:background="@drawable/tab_layout_background"
+            android:id="@+id/tabs"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:tabBackground="@drawable/tab_layout_selector"
+            app:tabIndicatorHeight="0dp"
+            app:tabPaddingEnd="16dp"
+            app:tabPaddingStart="16dp"
+            app:tabRippleColor="@null"
+            app:tabSelectedTextColor="@color/white" />
+
+        <LinearLayout
+            android:layout_below="@id/tabs"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                android:layout_width="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/loading_view"
+        android:layout_centerInParent="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:id="@+id/loading_image"
+            android:layout_gravity="center"
+            android:layout_height="35dp"
+            android:layout_width="35dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:src="@drawable/z_desk_loading" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:text="Loading"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

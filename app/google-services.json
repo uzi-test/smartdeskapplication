@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "781290802183",
+    "project_id": "smart-desk-0010",
+    "storage_bucket": "smart-desk-0010.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781290802183:android:7b2f7237513942bb23aea2",
+        "android_client_info": {
+          "package_name": "com.smartdesk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781290802183-ujc5os1tnnq9qcnir3i3eikd4ua4m5td.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartdesk",
+            "certificate_hash": "4196b7e5a28d9afc508d044516d2e877e406a2ea"
+          }
+        },
+        {
+          "client_id": "781290802183-86p2sbbju6mv3jld66lov2ieku2q5iv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4GPPYJrETEEXMkvASGTYGVEbsu8OlgLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781290802183-86p2sbbju6mv3jld66lov2ieku2q5iv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

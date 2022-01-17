@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SmartDesk</string>
+
+    <string name="fileProvider">com.smartdesk.fileprovider</string>
+
+    <string name="step_1">step 1</string>
+    <string name="step_2">step 2</string>
+
+
+    <string name="navigation_drawer_open">navigation drawer open</string>
+    <string name="navigation_drawer_close">navigation drawer close</string>
+
+    <string name="userRequest">New Request</string>
+    <string name="userAprroved">Approved</string>
+
+
+    <string name="deskAvailable">All Desks</string>
+    <string name="deskBooked">Desk Booked By You</string>
+
+    <string name="managerBooked">Desks Booked By Users</string>
+
+    <string name="map_view">Map View</string>
+    <string name="list_view">List View</string>
+
+    <string name="otp_text">Please enter your cell number\nwe will send Deskyou OTP code</string>
+    <string name="note_register">It\'s auto-detect your current location through GPS</string>
+
+    <string name="otp_code_screen">Please enter the OTP code that\nhas been sent to your mobile</string>
+    <string name="new_password">Please enter your new password\nto reset your password</string>
+    <string name="save_password"><![CDATA[Please enter current & new password\nto change your password]]></string>
+
+    <string-array name="yesNo">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>

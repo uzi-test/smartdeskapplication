@@ -1,0 +1,25 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=F1:CB:44:1A:AB:B3:CA:4B:F8:0E:D0:91:D3:03:4F:CD:F5:6B:06:A2%3Bus.socol.ongroundgig.screens
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.smartdesk.screens
+
+    SHA-1 certificate fingerprint:
+    F1:CB:44:1A:AB:B3:CA:4B:F8:0E:D0:91:D3:03:4F:CD:F5:6B:06:A2
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+<!--    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAnc_7jgTVaZ6VqjKP7F-ccU4Nay1R7RTo</string>-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAJwu52r7NzrZFYKsLW7zT8lVdvfWe1AF8</string>
+</resources>

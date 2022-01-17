@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <item android:drawable="@drawable/ripple_button"  android:state_selected="true"/>-->
+    <item android:drawable="@drawable/ripple_button"  android:state_pressed="true"/>
+<!--    <item android:drawable="@drawable/ripple_button"  android:state_active="true"/>-->
+<!--    <item android:drawable="@drawable/ripple_button"  android:state_hovered="true"/>-->
+    <item android:drawable="@drawable/shape_top_bottom_right_radius_selected"  android:state_focused="true"/>
+    <item android:drawable="@drawable/shape_top_bottom_right_radius" android:state_selected="false"/>
+</selector>
